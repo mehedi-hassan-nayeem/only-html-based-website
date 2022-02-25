@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="developer" content="Mehedi Hassan">
+    <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+    <meta name="author" content="Mehedi Hassan">
+    <meta name="description" content="Home Task 4">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Reset Password</title>
+</head>
+
+<body>
+    <header>
+        <!-- no-header-used -->
+    </header>
+
+
+    <!-- main-section-start -->
+    <main>
+
+        <!-- section-change-password -->
+        <section align="center">
+            <form action="./php/res-email-pass.php" method="post" name="res-form">
+
+                <!-- first-table -->
+                <table width="35%" align="center">
+                    <thead>
+                        <tr>
+                            <td colspan="2" height="110px"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div>
+                                    <a href="../index.html">
+                                        <img src="../images/logo.png" alt="logo.png" height="20%" width="20%">
+                                    </a>
+                                </div>
+
+                                <div>
+                                    <h1>Change Password</h1>
+                                </div>
+
+                                <div>
+                                    <label for="res-req-email"></label>
+                                    <input type="email" name="res-req-email" id="res-req-email" hidden>
+                                </div>
+                            </td>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td align="left">
+                                <h4>Create a strong password</h4>
+                                <p>Create a new, strong password that you don't use for other
+                                    websites.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <!-- second-table -->
+                <table width="22%" align="center">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div>
+                                    <label for="res-pass"></label>
+                                    <input type="password" name="res-pass" id="res-pass" placeholder="Create password"
+                                        minlength="8" pattern="[a-zA-z0-9]{+}" size="35" required autofocus>
+                                </div>
+                                <br>
+                                <div>
+                                    <label for="res-pass"></label>
+                                    <input type="password" name="res-pass" id="res-pass" placeholder="Confirm password"
+                                        minlength="8" pattern="[a-zA-z0-9]{+}" size="35" required>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td align="left">
+                                <label for="sh-hi-pass"></label>
+                                <input type="checkbox" name="sh-hi-pass" id="sh-hi-pass"> Show
+                                password
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+
+                <!-- third-table -->
+                <table width="35%" align="center">
+                    <tfoot>
+                        <tr>
+                            <td align="right">
+                                <label for="chng-pass"></label>
+                                <input type="submit" value="submit">
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+            </form>
+        </section>
+
+    </main>
+    <!-- main-section-start -->
+
+
+
+    <footer>
+        <!-- no-footer-used -->
+    </footer>
+
+    <script src="./javascript/security.js"></script>
+</body>
+
+</html>

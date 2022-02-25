@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="developer" content="Mehedi Hassan">
+    <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+    <meta name="author" content="Mehedi Hassan">
+    <meta name="description" content="Home Task 4">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Reset Password</title>
+</head>
+
+<body>
+
+    <!-- header-section-start -->
+    <header>
+        <section>
+            <table width="85%" align="center">
+                <thead>
+                    <tr>
+                        <td width="10%" align="center">
+                            <div>
+                                <a href="../index.html">
+                                    <img src="../images/logo.png" alt="logo.png" height="85px" width="85px">
+                                </a>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <font size="25px" color="#0E7DEC"><b>Omi Education</b></font>
+                            </div>
+                        </td>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+    </header>
+    <!-- header-section-end -->
+
+
+
+    <!-- main-section-start -->
+    <main>
+
+        <!-- form-section -->
+        <section>
+
+            <!-- b-table -->
+            <table align="center" width="37%">
+                <tr>
+                    <td height="30px"></td>
+                </tr>
+                <tr>
+                    <td>
+
+                        <!-- b-form -->
+                        <form>
+                            <fieldset>
+                                <br>
+
+                                <!-- main-form-section -->
+                                <section align="center">
+
+                                    <!-- main-form-section -->
+                                    <form action="./php/res-email-pass.php" method="post" name="res-form">
+
+                                        <!-- first-table -->
+                                        <table width="100%">
+
+                                            <thead>
+                                                <tr>
+                                                    <td>
+                                                        <div>
+                                                            <a href="../index.html">
+                                                                <img src="../images/logo.png" alt="logo.png"
+                                                                    height="85px" width="85px">
+                                                            </a>
+                                                        </div>
+
+                                                        <div>
+                                                            <p>
+                                                                <font size="5px"><b>Change Password</b></font>
+                                                            </p>
+                                                        </div>
+
+                                                        <div>
+                                                            <label for="res-req-email"></label>
+                                                            <input type="email" name="res-req-email" id="res-req-email"
+                                                                hidden>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </thead>
+
+                                            <tbody>
+                                                <tr>
+                                                    <td align="left">
+                                                        <h4>Create a strong password</h4>
+                                                        <p>Create a new, strong password that you don't use for other
+                                                            websites.</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+
+                                        </table>
+
+
+
+                                        <!-- second-table -->
+                                        <table width="22%" align="center">
+
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div>
+                                                            <label for="res-pass"></label>
+                                                            <input type="password" name="res-pass" id="res-pass"
+                                                                placeholder="Create password" minlength="8"
+                                                                pattern="[a-zA-z0-9]{+}" size="35" required autofocus>
+                                                        </div>
+                                                        <br>
+                                                        <div>
+                                                            <label for="res-pass"></label>
+                                                            <input type="password" name="res-pass" id="res-pass"
+                                                                placeholder="Confirm password" minlength="8"
+                                                                pattern="[a-zA-z0-9]{+}" size="35" required>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+
+                                            <tfoot>
+                                                <tr>
+                                                    <td align="left">
+                                                        <label for="sh-hi-pass"></label>
+                                                        <input type="checkbox" name="sh-hi-pass" id="sh-hi-pass"> Show
+                                                        password
+                                                    </td>
+                                                </tr>
+                                            </tfoot>
+
+                                        </table>
+
+                                        <br>
+
+                                        <!-- third-table -->
+                                        <table width="100%">
+                                            <tfoot>
+                                                <tr>
+                                                    <td align="right">
+                                                        <label for="chng-pass"></label>
+                                                        <input type="submit" value="Change Password">
+                                                    </td>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+
+                                    </form>
+
+                                </section>
+
+                                <br>
+                            </fieldset>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <!-- main-section-end -->
+
+
+
+    <footer>
+        <!-- no-footer-used -->
+    </footer>
+
+    <script src="./javascript/security.js"></script>
+</body>
+
+</html>

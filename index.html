@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="developer" content="Mehedi Hassan">
+    <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+    <meta name="author" content="Mehedi Hassan">
+    <meta name="description" content="Home Task 4">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Login Page</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- no-header-used -->
+    </header>
+
+
+    <!-- main-section-start -->
+    <main>
+
+        <!-- form-section-start -->
+        <section>
+            <table width="90%" align="center">
+                <tbody>
+                    <tr>
+                        <td colspan="2" height="120px">
+                            <blockquote>
+                                <a href="./index.html">
+                                    <img src="./images/logo.png" alt="logo.png" height="130px" width="130px">
+                                </a>
+                            </blockquote>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+
+                        <!-- left-side -->
+                        <td width="58%">
+                            <blockquote>
+                                <font size="25px" color="#0E7DEC"><b>Omi Education</b></font>
+                            </blockquote>
+                            <blockquote>
+                                <p><b>
+                                        <font size="5px">Omi Education is one of the largest online education platform
+                                            in
+                                            Bangladesh.</font>
+                                    </b>
+                                </p>
+                            </blockquote>
+                        </td>
+                        <!-- left-side -->
+
+
+                        <!-- right-side -->
+                        <td align="center" width="42%">
+                            <form action="./php/account.php" method="post" name="log-form">
+
+                                <!-- fieldset-main -->
+                                <fieldset>
+                                    <p align="left">
+                                        <b>Already a register user? Please...</b>
+                                    </p>
+
+                                    <!-- fieldset-child -->
+                                    <fieldset>
+                                        <br>
+                                        <label for="uname">
+                                            <input type="email" name="uname" id="uname" placeholder="email address"
+                                                autofocus required>
+                                        </label><br><br>
+                                        <label for="pass">
+                                            <input type="password" name="pass" id="pass" placeholder="password"
+                                                pattern="[a-zA-Z0-9]{+}" minlength="8" required>
+                                        </label>
+                                        <br><br>
+                                        <label for="rem-check"></label>
+                                        <input type="checkbox" name="rem-check" id="rem-check"> Remember me
+                                        <br><br>
+                                        <label for="sub">
+                                            <input type="submit" value="Log In">
+                                        </label>
+                                        <br>
+                                        <br>
+                                    </fieldset>
+
+                                    <!-- link-section -->
+                                    <p>
+                                        <a href="./html/fgt-page.html" target="_blank">
+                                            <font color="#1094DC" size="4px">Forgetten password?
+                                            </font>
+                                        </a>
+                                    </p>
+
+                                    <!-- hr-section -->
+                                    <hr width="250px" color="#96ADC3">
+
+                                    <!-- link-section -->
+                                    <p>
+                                        <a href="./html/reg-page.html" target="_self">
+                                            <font color="#BA21E1" size="4px">Create New Account</font>
+                                        </a>
+                                    </p>
+
+                                </fieldset>
+                            </form>
+                        </td>
+                        <!-- right-side -->
+
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!-- form-section-start -->
+
+    </main>
+    <!-- main-section-end -->
+
+    <footer>
+        <!-- no-footer-used -->
+    </footer>
+
+    <script src="./javascript/security.js"></script>
+</body>
+
+</html>
